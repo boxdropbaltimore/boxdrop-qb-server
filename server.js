@@ -15,7 +15,7 @@ app.use(cors({ origin: '*' })); // Tighten this to your dashboard URL in product
 const CONFIG = {
   clientId:     'ABqacg6iLszOKMRm5utdpVal0weXgYc77uCMGfEDgyMMETHGiL',
   clientSecret: 'PrqTq9dx9aVTHN6ixcolJabu5TDji0kvEmHHkn8k',
-  redirectUri:  'https://boxdrop-qb.onrender.com/callback',
+  redirectUri:  'https://nodejs-production-0b9b.up.railway.app/callback',
   companyId:    'PASTE_YOUR_COMPANY_ID_HERE',   // ← you'll fill this in
   environment:  'sandbox',  // use 'sandbox' for dev keys, 'production' for prod keys
   scopes:       'com.intuit.quickbooks.accounting',
